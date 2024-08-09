@@ -94,6 +94,7 @@ select:hover,
 
 .info-wrapper {
     display: flex;
+    /* flex-direction: column; */
 }
 
 .section-title {
@@ -238,6 +239,12 @@ footer {
     .about-section {
        padding: 60px 0;
     /* 📍 Внутренний отступ сверху и снизу */
+    }
+
+    .info-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
     }
 }
 
